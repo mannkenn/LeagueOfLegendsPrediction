@@ -1,12 +1,12 @@
 # LeagueOfLegendsPrediction
-Predicting outcome (Win/Loss) of League of Legends games based on match data.  
+Predicting champion picked and outcome (Win/Loss) of League of Legends games based on match data.  
 
 ## Table of Contents
 - [Intro](#intro)
 - [Getting Data](#getting-data)
 - [Exploratory Data Analysis](#eda)
 - [Null & Duplicate Values](#null)
-- 
+- [Feature Engineering](#feature-engineering)
 
 
 ## Intro
