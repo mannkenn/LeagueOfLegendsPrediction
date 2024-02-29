@@ -89,6 +89,7 @@ Made me realize Nocturne R counts as a huge amount of CC as it blinds everyone i
 * Normalized continuous features by game length so results were not skewed for shorter/longer games
 
 ## Model Building
+* Top features: 'lane', 'ap', 'ad', 'spell1Casts', 'spell2Casts', 'spell3Casts', 'spell4Casts','totalDamageTaken', 'magicDamageDealtToChampions', 'physicalDamageDealtToChampions', 'trueDamageDealtToChampions','totalDamageShieldedOnTeammates','totalHeal', 'visionScore', 'timeCCingOthers', 'objective_kills', 'building_kills'
 * Developed pipeline to preprocess numeric and categorical features
 * Standardized continuous features to deal with right skew distributions (had lots of 0 values for example for magic damage, if a champion has no magic damage in their kit, then they would obviously do 0 magic damage, but those who do have magic damage would deal infinitely more)
 * One-hot encoded lane feature rather than ordinal encoding as it is nominal
