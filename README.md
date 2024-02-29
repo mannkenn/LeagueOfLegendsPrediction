@@ -1,13 +1,8 @@
 # LeagueOfLegendsPrediction
 Predicting champion picked and outcome (Win/Loss) of League of Legends games based on match data.  
 
-## Table of Contents
-- [Intro](#intro)
-- [Getting Data](#getting-data)
-- [Exploratory Data Analysis](#eda)
-- [Null & Duplicate Values](#null)
-- [Feature Engineering](#feature-engineering)
-
+# Project Overview
+* Test
 
 ## Intro
 The goal of this project was to teach me the data science workflow. From assembling a dataset all the way to selecting and training ML models, I wanted to learn it all in one go.
