@@ -1,5 +1,5 @@
 # LeagueOfLegendsPrediction
-Predicting champion picked and outcome (Win/Loss) of League of Legends games based on match data.  
+Predicting champions picked in League of Legends games based on match data.  
 
 # Project Overview
 * Predicted what champion was played out of 140 available champions in League of Legends based on ranked match data
