@@ -83,7 +83,51 @@ Just wanted to see if support champions have best vision score (they should) and
 Made me realize Nocturne R counts as a huge amount of CC as it blinds everyone in the game for 5 seconds.
 
 ## Feature Engineering
+* Developed feature to classify whether a champion was AP/AD based on their predominant damage type for each game
+* AP meant a champion had more magic damage than physical damage that game
+* AD meant a champion had more physical damage than magic damage that game
+* Normalized continuous features by game length so results were not skewed for shorter/longer games
 
 ## Model Building
+* Developed pipeline to preprocess numeric and categorical features
+* Standardized continuous features to deal with right skew distributions (had lots of 0 values for example for magic damage, if a champion has no magic damage in their kit, then they would obviously do 0 magic damage, but those who do have magic damage would deal infinitely more)
+* One-hot encoded lane feature rather than ordinal encoding as it is nominal
+* Label encoded target feature from 0-140 representing champion names
+* Trained and tested using Random forests, K-nearest neighbors, Support vector machines, Naive-Bayes, and Logistic Regression
 
 ## Results
+* Random Forest algorithm achieved highest accuracy at 84%
+
+Model: Random Forest
+Accuracy: 0.843
+Precision: 0.842
+Recall: 0.843
+F1 Score: 0.840
+--------------------
+Model: K Nearest Neighbours
+Accuracy: 0.726
+Precision: 0.731
+Recall: 0.726
+F1 Score: 0.723
+--------------------
+Model: Support Vector Machines
+Accuracy: 0.825
+Precision: 0.828
+Recall: 0.825
+F1 Score: 0.822
+--------------------
+Model: Naive-Bayes
+Accuracy: 0.665
+Precision: 0.698
+Recall: 0.665
+F1 Score: 0.665
+--------------------
+Model: Logistic Regression
+Accuracy: 0.796
+Precision: 0.793
+Recall: 0.796
+F1 Score: 0.791
+--------------------
+### Cross Validation
+* Performed cross-validation with Random Forest to ensure model was not overfitting
+* Achieved mean accuracy of 84%
