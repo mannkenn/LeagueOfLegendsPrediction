@@ -5,7 +5,7 @@ Predicting champions picked in League of Legends games based on match data.
 * Predicted what champions were played out of 140 available champions in League of Legends based on ranked match data
 * Assembled dataset with over 700,000 entries from over 72,000 ranked games using Riot Games API
 * Engineered features like classifying whether a champion is AP/AD based on type of damage, and normalized continuous features by game duration
-* Built ML pipeline and used Random Forest, K-Nearest Neighbors, Support Vector Machines, Naive-Bayes, and Logistic Regression achieving 84% with Random Forest algorithm
+* Built ML pipeline and used Random Forest, K-Nearest Neighbors, Support Vector Machines, Naive-Bayes, and Logistic Regression achieving 90%+ accuracy with Random Forest algorithm
 * Performed cross-validation to ensure random forest was not overfitting achieving mean of 84% accuracy
 
 ## Assembling Dataset
