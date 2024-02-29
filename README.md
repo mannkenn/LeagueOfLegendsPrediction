@@ -5,8 +5,8 @@ Predicting champions picked in League of Legends games based on match data.
 * Predicted what champions were played out of 140 available champions in League of Legends based on ranked match data
 * Assembled dataset with over 700,000 entries from over 72,000 ranked games using Riot Games API
 * Engineered features like classifying whether a champion is AP/AD based on type of damage, and normalized continuous features by game duration
-* Built ML pipeline and used Random Forest, K-Nearest Neighbors, Support Vector Machines, Naive-Bayes, and Logistic Regression achieving 90%+ accuracy with Random Forest algorithm
-* Performed cross-validation to ensure random forest was not overfitting achieving mean of 84% accuracy
+* Built ML pipeline and used Random Forest, K-Nearest Neighbors, Support Vector Machines, Naive-Bayes, and Logistic Regression achieving 92%+ accuracy with Random Forest algorithm
+* Performed cross-validation to ensure random forest was not overfitting achieving mean of 92% accuracy
 
 ## Assembling Dataset
 * Used Riot's [LEAGUE-V4]([https://www.example.com](https://developer.riotgames.com/apis#league-v4)https://developer.riotgames.com/apis#league-v4) and [SUMMONER-V4](https://developer.riotgames.com/apis#summoner-v4) APIs to get a set of player names from each rank then filtered player names to represent overall rank distribution of League of Legends players. This was to assemble a dataset that would be more representative of the overall playerbase rather than just equal amounts of players from each rank.
@@ -97,38 +97,38 @@ Made me realize Nocturne R counts as a huge amount of CC as it blinds everyone i
 * Trained and tested using Random forests, K-nearest neighbors, Support vector machines, Naive-Bayes, and Logistic Regression
 
 ## Results
-* Random Forest algorithm achieved highest accuracy at 84%
+* Random Forest algorithm achieved highest accuracy at 92%
 
 Model: Random Forest
-Accuracy: 0.843
-Precision: 0.842
-Recall: 0.843
-F1 Score: 0.840
+Accuracy: 0.929
+Precision: 0.929
+Recall: 0.929
+F1 Score: 0.928
 --------------------
 Model: K Nearest Neighbours
-Accuracy: 0.726
-Precision: 0.731
-Recall: 0.726
-F1 Score: 0.723
+Accuracy: 0.832
+Precision: 0.838
+Recall: 0.832
+F1 Score: 0.831
 --------------------
 Model: Support Vector Machines
-Accuracy: 0.825
-Precision: 0.828
-Recall: 0.825
-F1 Score: 0.822
+Accuracy: 0.919
+Precision: 0.920
+Recall: 0.919
+F1 Score: 0.918
 --------------------
 Model: Naive-Bayes
-Accuracy: 0.665
-Precision: 0.698
-Recall: 0.665
-F1 Score: 0.665
+Accuracy: 0.691
+Precision: 0.766
+Recall: 0.691
+F1 Score: 0.679
 --------------------
 Model: Logistic Regression
-Accuracy: 0.796
-Precision: 0.793
-Recall: 0.796
-F1 Score: 0.791
+Accuracy: 0.897
+Precision: 0.897
+Recall: 0.897
+F1 Score: 0.896
 --------------------
 ### Cross Validation
 * Performed cross-validation with Random Forest to ensure model was not overfitting
-* Achieved mean accuracy of 84%
+* Achieved mean accuracy of 92%
