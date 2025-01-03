@@ -1,5 +1,5 @@
 # LeagueOfLegendsPrediction
-Predicting champions picked in League of Legends games based on match data.  
+Using Random Forests to predict League of Legends Champions
 
 # Project Overview
 * Predicted what champions were played out of 140 available champions in League of Legends based on ranked match data
