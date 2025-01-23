@@ -8,5 +8,5 @@
 - Applied PCA for dimensionality reduction then subsequently K-means clustering
 - Served insights through an interactive [Tableau Dashboard](https://public.tableau.com/app/profile/emmanuel.kim/viz/lolclusteringdashboard/Dashboard1)
 
-### Full project report linked here:
-[Project Report](insert link)
+### Full project report linked [here] ():
+
