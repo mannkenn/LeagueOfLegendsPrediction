@@ -4,7 +4,6 @@
 - Many players, especially new ones have a hard time figuring out who to play
 - League of Legends provides a classification system but it has many weaknesses
 - Goal of project is to provide a new classification system through clustering, and provide more in-depth analysis into what makes each champion unique
-- Served insights through an interactive Tableau dashboard 
-[Tableau Dashboard](https://public.tableau.com/app/profile/emmanuel.kim/viz/lolclusteringdashboard/Dashboard1)
+- Served insights through an interactive [Tableau Dashboard](https://public.tableau.com/app/profile/emmanuel.kim/viz/lolclusteringdashboard/Dashboard1)
 
 ### Full project report linked below
