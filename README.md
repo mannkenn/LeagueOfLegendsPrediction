@@ -9,5 +9,5 @@
 - Served insights through an interactive [Tableau Dashboard](https://public.tableau.com/app/profile/emmanuel.kim/viz/lolclusteringdashboard/Dashboard1)
 - Full notebook [here](https://github.com/mannkenn/ClusteringLoLChampions/blob/main/clustering/clusteringchamps.ipynb)
 
-### Full in-depth project report linked [here] ():
+### Full in-depth project report linked [here] (COMING SOON):
 
